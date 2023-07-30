@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "563435582024",
+    "project_id": "strathclyde-collage-app",
+    "storage_bucket": "strathclyde-collage-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563435582024:android:69c2ef8abb34ae5e031e7d",
+        "android_client_info": {
+          "package_name": "com.govind.strathclydeuser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563435582024-6mf42cib1h2oq6eq2rr1eue4dfvo2euv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8_0PDSD5-o4iQUpLsCVryIisSenDW3Gk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563435582024-6mf42cib1h2oq6eq2rr1eue4dfvo2euv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

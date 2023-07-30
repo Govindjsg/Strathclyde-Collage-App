@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+       <com.smarteist.autoimageslider.SliderLayout
+           android:layout_width="match_parent"
+           android:layout_height="250dp"
+           android:id="@+id/slider"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal"
+               android:layout_marginTop="15dp"
+               android:fontFamily="@string/bold"
+               android:text="Strathclyde"
+               android:textColor="#3F51B5"
+               android:textSize="@dimen/title_size"
+               android:textStyle="bold" />
+
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_horizontal"
+               android:layout_marginHorizontal="@dimen/text_margin"
+               android:layout_marginTop="@dimen/text_margin"
+               android:fontFamily="@string/light"
+               android:text="@string/about_college"
+               android:textColor="@color/textColor"
+               android:textSize="@dimen/text_size"
+               android:textStyle="bold" />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="36dp"
+               android:background="@color/darkColor">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="228dp"
+                   android:layout_margin="36dp"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center_horizontal"
+                       android:layout_marginTop="@dimen/text_margin"
+                       android:fontFamily="@string/bold"
+                       android:text="Courses"
+                       android:textColor="@color/white"
+                       android:textSize="@dimen/title_size" />
+
+                   <com.google.android.material.card.MaterialCardView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="16dp">
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:background="#fff"
+                           android:orientation="vertical">
+
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_gravity="center_horizontal"
+                               android:layout_margin="8dp"
+                               android:layout_marginHorizontal="@dimen/text_margin"
+                               android:layout_marginTop="@dimen/text_margin"
+                               android:fontFamily="@string/light"
+                               android:text="Science"
+                               android:textColor="@color/black"
+                               android:textSize="17dp"
+                               android:textStyle="bold" />
+                           <View
+                               android:layout_width="match_parent"
+                               android:layout_height="1dp"
+                               android:background="@color/grey" />
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_gravity="center_horizontal"
+                               android:layout_margin="8dp"
+                               android:layout_marginHorizontal="@dimen/text_margin"
+                               android:layout_marginTop="@dimen/text_margin"
+                               android:fontFamily="@string/light"
+                               android:text="Engineering"
+                               android:textColor="@color/black"
+                               android:textSize="@dimen/text_size"
+                               android:textStyle="bold" />
+
+
+
+
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_gravity="center_horizontal"
+                               android:layout_margin="8dp"
+                               android:layout_marginHorizontal="@dimen/text_margin"
+                               android:layout_marginTop="@dimen/text_margin"
+                               android:fontFamily="@string/light"
+                               android:text="Humanities and Social Sciences"
+                               android:textColor="@color/black"
+                               android:textSize="17dp"
+                               android:textStyle="bold" />
+
+                           <View
+                               android:layout_width="match_parent"
+                               android:layout_height="1dp"
+                               android:background="@color/grey" />
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_gravity="center_horizontal"
+                               android:layout_margin="8dp"
+                               android:layout_marginHorizontal="@dimen/text_margin"
+                               android:layout_marginTop="@dimen/text_margin"
+                               android:fontFamily="@string/light"
+                               android:text="Strathclyde Business School"
+                               android:textColor="@color/black"
+                               android:textSize="17dp"
+                               android:textStyle="bold" />
+
+
+                       </LinearLayout>
+                   </com.google.android.material.card.MaterialCardView>
+
+
+               </LinearLayout>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:padding="@dimen/text_margin">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_marginTop="36dp"
+                   android:fontFamily="@string/bold"
+                   android:text="Contact Details"
+                   android:textColor="#3F51B5"
+                   android:textSize="@dimen/title_size" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="University of Strathclyde"
+                   android:layout_marginTop="@dimen/text_margin"
+                   android:layout_marginHorizontal="@dimen/text_margin"
+                   android:textSize="@dimen/text_size"
+                   android:textStyle="bold"
+                   android:textColor="@color/textColor"
+                   android:fontFamily="@string/light"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="16 Richmond St, Glasgow G1 1XQ, United Kingdom"
+                   android:layout_marginTop="@dimen/text_margin"
+                   android:layout_marginHorizontal="@dimen/text_margin"
+                   android:textSize="@dimen/text_size"
+                   android:textStyle="bold"
+                   android:textColor="@color/textColor"
+                   android:fontFamily="@string/light"/>
+
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Phone :  +44 141 552 4400"
+                   android:layout_marginTop="@dimen/text_margin"
+                   android:layout_marginHorizontal="@dimen/text_margin"
+                   android:textSize="@dimen/text_size"
+                   android:textStyle="bold"
+                   android:textColor="@color/textColor"
+                   android:fontFamily="@string/light"/>
+
+
+               <ImageView
+                   android:id="@+id/map"
+                   android:layout_width="match_parent"
+                   android:layout_height="200dp"
+                   android:padding="10dp"
+                   android:src="@drawable/clg" />
+
+
+           </LinearLayout>
+
+
+
+       </LinearLayout>
+       </LinearLayout>
+   </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.about.AboutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="fitXY"
+            android:id="@+id/college_image"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/abt"
+            android:layout_marginTop="@dimen/text_margin"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/textColor"
+            android:fontFamily="@string/light"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@string/bold"
+            android:text="FACILITIES "
+            android:textColor="@color/purple_500"
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_label"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColor"
+                android:textSize="17dp"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:text="LABORATORY"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_label" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:text="LIBRARY"
+                android:textColor="@color/textColor"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_label" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:text="SPORTS"
+                android:textColor="@color/textColor"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_label" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:text="COMPUTERS"
+                android:textColor="@color/textColor"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_label" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:text="CLASS ROOMS"
+                android:textColor="@color/textColor"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_label" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:text="GREEN CAMPUS"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="36dp"
+            android:fontFamily="@string/bold"
+            android:text="Courses"
+            android:textColor="@color/purple_500"
+            android:textSize="25dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:text="Swipe Left -->"
+                android:textColor="#FF0404"
+                android:textSize="10dp" />
+
+            <androidx.viewpager.widget.ViewPager
+                android:layout_margin="18dp"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/text_margin"
+                android:foregroundGravity="center"
+                android:clipToPadding="false"
+                android:overScrollMode="never"
+                android:layout_height="380dp"
+                android:id="@+id/viewPager"/>
+
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/text_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="36dp"
+                android:fontFamily="@string/bold"
+                android:text="Contact Details"
+                android:textColor="#ED1111"
+                android:textSize="@dimen/title_size" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="University of Strathclyde"
+                   android:layout_marginTop="@dimen/text_margin"
+                   android:layout_marginHorizontal="@dimen/text_margin"
+                   android:textSize="@dimen/text_size"
+                   android:textStyle="bold"
+                   android:textColor="@color/textColor"
+                   android:fontFamily="@string/light"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="16, Richmond St, Glasgow G1 1XQ, United Kingdom"
+                   android:layout_marginTop="@dimen/text_margin"
+                   android:layout_marginHorizontal="@dimen/text_margin"
+                   android:textSize="@dimen/text_size"
+                   android:textStyle="bold"
+                   android:textColor="@color/textColor"
+                   android:fontFamily="@string/light"/>
+
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Phone : +441415524400"
+                   android:layout_marginTop="@dimen/text_margin"
+                   android:layout_marginHorizontal="@dimen/text_margin"
+                   android:textSize="@dimen/text_size"
+                   android:textStyle="bold"
+                   android:textColor="@color/textColor"
+                   android:fontFamily="@string/light"/>
+
+
+
+        </LinearLayout>
+        </LinearLayout>
+
+
+
+
+</androidx.core.widget.NestedScrollView>
